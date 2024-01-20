@@ -1,0 +1,26 @@
+-- Docker 2024 - MYSQL test 100% db
+-- De manera Global para crear modelos y mas 
+
+>npm i -g sequelize-cli
+
+--Instalaciones necesarias aparte de las otras que esta en el package json
+
+
+
+>npm i pg
+>npm i pg-hstore
+>npm i sequelize
+>npm i @babel/polyfill
+
+>npm install --save-dev @babel/core @babel/cli @babel/preset-env
+
+
+------------
+breves guias :
+https://blog.echobind.com/a-guide-for-restful-apis-with-node-sequelize-postgres-63636d026d5d
+
+
+https://rosolutions.com.mx/blog/index.php/2018/08/06/como-usar-un-orm-en-node-js/
+
+https://chineduorie.com/posts/how-to-use-sequelize-on-an-existing-database
+------------
