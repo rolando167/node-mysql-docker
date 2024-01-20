@@ -4,6 +4,8 @@
 * env example
 
 ## Docker 🐋 implementacion - env
+Falta docker port 3306 - mysql
+
 <hr/>
 <img src="main.jpg" />
 
