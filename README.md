@@ -4,10 +4,15 @@
 * env example
 
 ## Docker Compose YML 🐋 implementacion - env
-Falta docker port 3306 - mysql
+Docker port 3306 - mysql
 
+* docker compose ps
 * docker compose up
 
+* docker compose down
+
+* docker compose up --build
+<hr/>
 * https://hub.docker.com/_/mysql
 * https://devhints.io/docker-compose
 
