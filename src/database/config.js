@@ -5,7 +5,7 @@ const { DB_HOST, DB_NAME,  DB_USERNAME, DB_PASSWORD, DB_PORT} = process.env;
 
 	// Option 2: Passing parameters separately (other dialects)
 	const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
-		host: DB_HOST, // 'localhost'
+		host: 'mysqldb', // 'localhost' o 'mysqldb' (docker compose)
 		port: DB_PORT,
 		dialect: 'mysql'
 	});
