@@ -7,6 +7,20 @@ var mysqlPass = process.env.MYSQL_PASS || 'password';
 var mysqlDB   = process.env.MYSQL_DB  ||
 
 
+CREATE TABLE `carta` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `plato` varchar(25) NOT NULL,
+  `descripcion` varchar(255) DEFAULT NULL,
+  `precio` decimal(12,2) NOT NULL,
+  `disponible` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+
+Insert into Carta (plato, descripcion, precio, disponible) values ("Ceviche", "limon Lorem ipsum dolor sit amet, ", 17.20, true);
+Insert into Carta (plato, descripcion, precio, disponible) values ("Lomo Salatad", "consectetur adipiscing elit", 30.40, true);
+
+
+
 -- Docker 2024 - MYSQL test 100% db
 -- De manera Global para crear modelos y mas 
 

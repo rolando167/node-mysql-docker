@@ -3,7 +3,7 @@
 
 * env example
 
-## Docker Compose YML 🐋 implementacion - env
+## Docker Compose YML 🐋 implementacion - env - Persistencia de datos 100%
 Docker port 3306 - mysql
 
 * docker compose ps
@@ -15,6 +15,9 @@ Docker port 3306 - mysql
 <hr/>
 * https://hub.docker.com/_/mysql
 * https://devhints.io/docker-compose
+
+* https://geshan.com.np/blog/2022/02/mysql-docker-compose/
+* https://josejuansanchez.org/bd/practica-05/index.html
 
 <hr/>
 <img src="main.jpg" />
